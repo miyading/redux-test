@@ -1,9 +1,9 @@
-export const changeText = function () {
+export function changeText() {
   return {
     type: 'CHANGE_TEXT'
   }
 }
-export const buttonClick = function () {
+export function buttonClick() {
   return {
     type: 'BUTTON_CLICK'
   }

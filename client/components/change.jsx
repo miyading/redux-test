@@ -1,3 +1,5 @@
+import React from 'react'
+
 export default class Change extends React.Component {
   constructor(props) {
     super(props);

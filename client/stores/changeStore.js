@@ -1,6 +1,6 @@
 import {createStore} from 'redux'
-import {myApp} from '../reducers/changeReducer'
+import myApp from '../reducers/changeReducer'
 
-export default function store(myApp) {
+export default function store() {
   return createStore(myApp)
 }
